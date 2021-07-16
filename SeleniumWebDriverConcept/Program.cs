@@ -21,7 +21,7 @@ namespace SeleniumWebDriverConcept123
             driver.FindElement(By.Id("pass")).SendKeys("balaji@12345");
 
             //click on continue
-
+            driver.FindElement(By.Id("send2")).Click();
             
 
            //driver.Quit();
