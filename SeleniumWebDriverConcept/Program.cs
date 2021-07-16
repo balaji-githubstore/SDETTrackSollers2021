@@ -22,7 +22,10 @@ namespace SeleniumWebDriverConcept123
 
             //click on continue
             driver.FindElement(By.Id("send2")).Click();
-            
+
+
+            string title=driver.Title;
+            Console.WriteLine(title);
 
            //driver.Quit();
 
