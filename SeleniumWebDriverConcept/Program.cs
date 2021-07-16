@@ -27,7 +27,7 @@ namespace SeleniumWebDriverConcept123
             string title=driver.Title;
             Console.WriteLine(title);
 
-           //driver.Quit();
+            driver.Quit();
 
         }
     }
