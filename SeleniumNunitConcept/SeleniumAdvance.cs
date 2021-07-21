@@ -94,6 +94,21 @@ namespace SeleniumNunitConcept
 
             Console.WriteLine(windows[0]);
             Console.WriteLine(windows[1]);
+
+            for(int i=0;i<windows.Count;i++)
+            {
+                Console.WriteLine(windows[i]);
+            }
+
+            foreach(string win in windows)
+            {
+                Console.WriteLine(win);
+            }
+
+            foreach (var win in windows)
+            {
+                Console.WriteLine(win);
+            }
         }
 
 
